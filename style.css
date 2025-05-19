@@ -1,0 +1,57 @@
+.topnav {
+    overflow: hidden;
+    display: flex;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 6px 8px;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.topnav a:hover {
+    border-style: solid;
+    border-width: 1px;
+}
+
+.topnav input[type=text] {
+    padding: 4px;
+    margin: 8px;
+    margin-right: 0px;
+    border: 0px;
+    float: left;
+}
+
+.topnav .home {
+    font-size: 20px;
+}
+
+#bar1 {
+    background-color: rgb(2, 2, 22);
+    font-size: 0px;
+}
+
+#bar2 {
+    background-color: rgb(34, 34, 62);
+}
+
+.topnav button {
+    width: 30px;
+    padding: 4px;
+    background: darkorange;
+    color: black;
+    font-size: 15px;
+    cursor: pointer;
+    border: 0px;
+    border-radius: 3px;
+    float: left;
+    margin-top: 7px;
+    margin-right: 5px;
+}
+  
+.topnav button:hover {
+    background: rgb(218, 120, 0);
+}
