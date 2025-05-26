@@ -1,3 +1,8 @@
+body {
+    background-image: url("images/craftedbattle72.jpg");
+    background-size: contain;
+}
+
 .topnav {
     overflow: hidden;
     display: flex;
@@ -54,4 +59,14 @@
   
 .topnav button:hover {
     background: rgb(218, 120, 0);
+}
+
+.categories {
+    background-color: white;
+    width: 175px;
+    height: 200px;
+}
+
+.sections {
+
 }
